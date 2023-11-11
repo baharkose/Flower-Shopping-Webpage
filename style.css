@@ -271,3 +271,33 @@ body {
 
 /* pro container is ended */
 
+/* banner is started */
+#banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(./img/banner/b1.png);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #C7CCB9 ;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+
+/* banner is ended */
+
