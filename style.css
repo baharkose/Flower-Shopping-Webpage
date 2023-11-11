@@ -58,9 +58,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 0 80px;
   background: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  z-index: 555;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar{
@@ -99,4 +103,42 @@ body {
   position: absolute;
   bottom: -4px;
   left: 2px;
+}
+
+
+/*  Home Page */
+
+#hero{
+  background-image: url(./img/hero4.png);
+  height: 90vh;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  background-position: top 0 right 0;
+  background-size: cover;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+  flex-direction: column;
+  
+
+}
+
+#hero h4{
+  padding-bottom: 15px;
+}
+#hero h1{
+  color: #088178;
+}
+
+#hero button{
+  background-image: url("./img/button.png");
+  background-color: transparent;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: bold;
+  color: #088178;
+
 }
